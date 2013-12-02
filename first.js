@@ -1,7 +1,8 @@
 function a(){console.log(arguments.callee)}
 
 
-(funciton() {
+//anonymouse code 
+var reesutl = (funciton() {
   var arr = [];
   for(var i=0 ; i < 10000 ; i++) {
     console.log(i);
@@ -9,3 +10,6 @@ function a(){console.log(arguments.callee)}
   }
   return arr;
 })();
+
+
+
